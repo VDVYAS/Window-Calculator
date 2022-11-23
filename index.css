@@ -1,0 +1,39 @@
+.main {
+    width: 268px;
+    height: 200px;
+    margin: 150px auto;
+    background-color: rgb(37, 37, 38);
+}
+
+.button {
+    padding: 2px;
+    width: 39px;
+    margin: 5px;
+    border-radius: 5px;
+    border-color: rgb(230, 234, 239);
+}
+
+button:hover {
+    background-color: rgb(208, 213, 220);
+}
+
+.input {
+    border-color: rgb(230, 234, 239);
+}
+
+@media screen and (max-width: 250px) {
+    .main {
+        margin-top: 112px;
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: pink;
+        width: 193px;
+    }
+    .input {
+        width: 190px;
+    }
+    .button {
+        margin: 4px;
+        width: 27px;
+    }
+}
